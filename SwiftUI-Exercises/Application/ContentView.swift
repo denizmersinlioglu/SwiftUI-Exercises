@@ -7,15 +7,17 @@
 
 import SwiftUI
 import UpdateViewExercise
+import EnvironmentExercise
 
 struct ContentView: View {
     var body: some View {
-        UpdateViewExercise()
+        EnvironmentExercise()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        UpdateViewExercise()
+//        UpdateViewExercise()
+        EnvironmentExercise()
     }
 }
