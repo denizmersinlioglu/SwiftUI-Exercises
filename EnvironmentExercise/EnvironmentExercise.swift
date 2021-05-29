@@ -136,7 +136,6 @@ struct DatabaseConnectionView: View {
     }
 }
 
-
 // MARK: - Preferences
 
 // All the ancestors of a view can access preferences of their children.
@@ -188,7 +187,6 @@ struct MyNavigationView<Content>: View where Content: View {
                                        perform: { self.title = $0 } )
         }
     }
-
 }
 
 // MARK: - Exercise
