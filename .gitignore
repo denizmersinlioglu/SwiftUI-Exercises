@@ -1,0 +1,20 @@
+report.xml
+Pods
+Preview.html
+SwiftUI-Exercises.xcodeproj/xcuserdata
+SwiftUI-Exercises.xcworkspace/xcuserdata
+*.ipa
+*.dSYM.zip
+*.dSYM
+fastlane/screenshots
+Crashlytics.framework
+Fabric.framework
+SwiftUI-Exercises.xcodeproj/project.xcworkspace/xcuserdata
+fastlane/metadata
+fastlane/fastlane/screenshots
+.bundle/
+vendor/
+*.generated.swift
+SocioSnapshotTests/FailureDiffs
+Notification Certificates/*.pkey
+Notification Certificates/*.pem
