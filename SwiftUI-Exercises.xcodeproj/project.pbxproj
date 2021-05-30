@@ -190,6 +190,10 @@
 		22A75C4526631E2300A51D4D /* ExerciseCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoreTests.swift; sourceTree = "<group>"; };
 		22A75C4726631E2300A51D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A75C5326631E3100A51D4D /* ExerciseLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLink.swift; sourceTree = "<group>"; };
+		22A75C63266320A400A51D4D /* swiftformat.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = swiftformat.dSYM; sourceTree = "<group>"; };
+		22A75C6E266320AE00A51D4D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		22A75C70266320C500A51D4D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		22A75C8E2663210A00A51D4D /* Linter & Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linter & Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +300,7 @@
 				22A75C3726631E2200A51D4D /* ExerciseCore */,
 				22A75C4426631E2300A51D4D /* ExerciseCoreTests */,
 				221DC1A02661AACB0050D2D1 /* Products */,
+				22A75C57266320A400A51D4D /* BuildTools */,
 			);
 			sourceTree = "<group>";
 		};
@@ -313,6 +318,7 @@
 				221DCD4B26630D55007E518E /* LayoutExerciseTests.xctest */,
 				22A75C3626631E2200A51D4D /* ExerciseCore.framework */,
 				22A75C3E26631E2300A51D4D /* ExerciseCoreTests.xctest */,
+				22A75C8E2663210A00A51D4D /* Linter & Formatter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -441,6 +447,184 @@
 				22A75C4726631E2300A51D4D /* Info.plist */,
 			);
 			path = ExerciseCoreTests;
+			sourceTree = "<group>";
+		};
+		22A75C57266320A400A51D4D /* BuildTools */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C58266320A400A51D4D /* .build */,
+				22A75C6E266320AE00A51D4D /* Empty.swift */,
+				22A75C70266320C500A51D4D /* Package.swift */,
+			);
+			path = BuildTools;
+			sourceTree = "<group>";
+		};
+		22A75C58266320A400A51D4D /* .build */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C59266320A400A51D4D /* artifacts */,
+				22A75C5A266320A400A51D4D /* checkouts */,
+				22A75C5B266320A400A51D4D /* x86_64-apple-macosx */,
+				22A75C64266320A400A51D4D /* repositories */,
+			);
+			path = .build;
+			sourceTree = "<group>";
+		};
+		22A75C59266320A400A51D4D /* artifacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = artifacts;
+			sourceTree = "<group>";
+		};
+		22A75C5A266320A400A51D4D /* checkouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = checkouts;
+			sourceTree = "<group>";
+		};
+		22A75C5B266320A400A51D4D /* x86_64-apple-macosx */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5C266320A400A51D4D /* release */,
+			);
+			path = "x86_64-apple-macosx";
+			sourceTree = "<group>";
+		};
+		22A75C5C266320A400A51D4D /* release */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5D266320A400A51D4D /* CommandLineTool.build */,
+				22A75C5E266320A400A51D4D /* ModuleCache */,
+				22A75C60266320A400A51D4D /* swiftformat.product */,
+				22A75C61266320A400A51D4D /* SwiftFormat.build */,
+				22A75C62266320A400A51D4D /* BuildTools.build */,
+				22A75C63266320A400A51D4D /* swiftformat.dSYM */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		22A75C5D266320A400A51D4D /* CommandLineTool.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommandLineTool.build;
+			sourceTree = "<group>";
+		};
+		22A75C5E266320A400A51D4D /* ModuleCache */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5F266320A400A51D4D /* 3VOEGG73VEP3P */,
+			);
+			path = ModuleCache;
+			sourceTree = "<group>";
+		};
+		22A75C5F266320A400A51D4D /* 3VOEGG73VEP3P */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3VOEGG73VEP3P;
+			sourceTree = "<group>";
+		};
+		22A75C60266320A400A51D4D /* swiftformat.product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = swiftformat.product;
+			sourceTree = "<group>";
+		};
+		22A75C61266320A400A51D4D /* SwiftFormat.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftFormat.build;
+			sourceTree = "<group>";
+		};
+		22A75C62266320A400A51D4D /* BuildTools.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuildTools.build;
+			sourceTree = "<group>";
+		};
+		22A75C64266320A400A51D4D /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C65266320A400A51D4D /* SwiftFormat-0610bb0d */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		22A75C65266320A400A51D4D /* SwiftFormat-0610bb0d */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C66266320A400A51D4D /* objects */,
+				22A75C69266320A400A51D4D /* info */,
+				22A75C6A266320A400A51D4D /* hooks */,
+				22A75C6B266320A400A51D4D /* refs */,
+			);
+			path = "SwiftFormat-0610bb0d";
+			sourceTree = "<group>";
+		};
+		22A75C66266320A400A51D4D /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C67266320A400A51D4D /* pack */,
+				22A75C68266320A400A51D4D /* info */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		22A75C67266320A400A51D4D /* pack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		22A75C68266320A400A51D4D /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		22A75C69266320A400A51D4D /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		22A75C6A266320A400A51D4D /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		22A75C6B266320A400A51D4D /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C6C266320A400A51D4D /* heads */,
+				22A75C6D266320A400A51D4D /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		22A75C6C266320A400A51D4D /* heads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		22A75C6D266320A400A51D4D /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -683,6 +867,22 @@
 			productReference = 22A75C3E26631E2300A51D4D /* ExerciseCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		22A75C722663210A00A51D4D /* Linter & Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A75C8B2663210A00A51D4D /* Build configuration list for PBXNativeTarget "Linter & Formatter" */;
+			buildPhases = (
+				22A75C902663219300A51D4D /* [Swift Format] Run */,
+				22A75C912663219400A51D4D /* [Swift Lint] Run */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linter & Formatter";
+			productName = "SwiftUI-Exercises";
+			productReference = 22A75C8E2663210A00A51D4D /* Linter & Formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -761,6 +961,7 @@
 				221DCD4A26630D55007E518E /* LayoutExerciseTests */,
 				22A75C3526631E2200A51D4D /* ExerciseCore */,
 				22A75C3D26631E2300A51D4D /* ExerciseCoreTests */,
+				22A75C722663210A00A51D4D /* Linter & Formatter */,
 			);
 		};
 /* End PBXProject section */
@@ -846,6 +1047,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22A75C902663219300A51D4D /* [Swift Format] Run */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swift Format] Run";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd BuildTools\nSDKROOT=macosx\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat \"$SRCROOT\" --swiftversion 5.3 --config ../.swiftformat\n\necho \"Format Done\"\n";
+		};
+		22A75C912663219400A51D4D /* [Swift Lint] Run */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swift Lint] Run";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint lint --config .swiftlint.yml\n    \n    echo \"Lint Done\"\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		221DC19B2661AACB0050D2D1 /* Sources */ = {
@@ -1669,6 +1909,56 @@
 			};
 			name = Release;
 		};
+		22A75C8C2663210A00A51D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Exercises/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Linter-Formatter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developmentHouse.SwiftUI-Exercises.Linter-Formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A75C8D2663210A00A51D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Exercises/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Linter-Formatter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developmentHouse.SwiftUI-Exercises.Linter-Formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1776,6 +2066,15 @@
 			buildConfigurations = (
 				22A75C4F26631E2300A51D4D /* Debug */,
 				22A75C5026631E2300A51D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A75C8B2663210A00A51D4D /* Build configuration list for PBXNativeTarget "Linter & Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A75C8C2663210A00A51D4D /* Debug */,
+				22A75C8D2663210A00A51D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,9 +5,7 @@
 //  Created by Deniz Mersinlioğlu on 29.05.2021.
 //
 
-import XCTest
 @testable import EnvironmentExercise
+import XCTest
 
-class EnvironmentExerciseTests: XCTestCase {
-
-}
+class EnvironmentExerciseTests: XCTestCase {}
