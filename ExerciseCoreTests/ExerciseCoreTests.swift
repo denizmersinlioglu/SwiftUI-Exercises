@@ -5,9 +5,7 @@
 //  Created by Deniz Mersinlioğlu on 30.05.2021.
 //
 
-import XCTest
 @testable import ExerciseCore
+import XCTest
 
-class ExerciseCoreTests: XCTestCase {
-
-}
+class ExerciseCoreTests: XCTestCase {}

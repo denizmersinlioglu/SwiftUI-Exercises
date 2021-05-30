@@ -1,0 +1,34 @@
+# rules
+--disable trailingCommas
+--disable strongifiedSelf,preferKeyPath,braces, extensionAccessControl,organizeDeclarations,numberFormatting
+--disable redundantBackticks, blankLinesAtStartOfScope,blankLinesAtEndOfScope, elseOnSameLine, strongOutlets, wrapSwitchCases, wrapAttributes
+--enable unusedArguments # Not working great with SwiftyMocky
+--enable isEmpty,andOperator,anyObjectProtocol,blankLinesAroundMark
+--enable blankLinesBetweenScopes,consecutiveBlankLines
+--enable consecutiveSpaces,duplicateImports,emptyBraces
+--enable hoistPatternLet,indent,enumNamespaces,leadingDelimiters,linebreakAtEndOfFile,linebreaks
+--enable markTypes, modifierOrder, redundantBreak, redundantExtensionACL, redundantFileprivate, redundantGet
+--enable redundantInit, redundantLet, redundantLetError, redundantNilInit, redundantObjc, redundantParens
+--enable redundantPattern,redundantRawValues, redundantReturn, redundantSelf, redundantType, redundantVoidReturnType
+--enable semicolons, sortedImports,spaceAroundBraces,spaceAroundBrackets, spaceAroundComments,spaceAroundGenerics,spaceAroundOperators
+--enable spaceAroundParens, spaceInsideBraces, spaceInsideBrackets, spaceInsideComments,spaceInsideGenerics,spaceInsideParens
+--enable todos, trailingClosures,trailingSpace, typeSugar, void, wrap, wrapArguments
+--enable wrapEnumCases, wrapMultilineStatementBraces, yodaConditions
+
+# format options
+--semicolons never
+--maxwidth 160
+--indent tab
+--allman false
+--xcodeindentation enabled
+--tabwidth 4
+--indentcase false
+--linebreaks lf
+--groupedextension "MARK: - %c"
+--selfrequired
+--redundanttype inferred
+--semicolons inline
+--trailingclosures
+--yodaswap always
+
+# file options

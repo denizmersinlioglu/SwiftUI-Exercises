@@ -18,3 +18,5 @@ vendor/
 SocioSnapshotTests/FailureDiffs
 Notification Certificates/*.pkey
 Notification Certificates/*.pem
+BuildTools/.build
+BuildTools/.swiftpm

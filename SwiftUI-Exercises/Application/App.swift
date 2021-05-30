@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUI_ExercisesApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+	}
 }
