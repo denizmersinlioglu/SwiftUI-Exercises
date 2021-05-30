@@ -245,3 +245,11 @@ public struct EnvironmentExercise: View {
         .debug()
     }
 }
+
+// MARK: - Preview
+
+struct EnvironmentExercise_Previews: PreviewProvider {
+    static var previews: some View {
+        EnvironmentExercise()
+    }
+}
