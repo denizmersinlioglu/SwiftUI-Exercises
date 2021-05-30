@@ -9,21 +9,9 @@ import SwiftUI
 import UpdateViewExercise
 import EnvironmentExercise
 import LayoutExercise
+import ExerciseCore
 
-struct Exercise<Content>: View where Content: View {
-    // MARK: Properties
-    
-    let title: String
-    let content: Content
-    
-    // MARK: Render
-    
-    var body: some View {
-        NavigationLink(
-            destination: content,
-            label: { Text(title) })
-    }
-}
+// MARK: - Content
 
 struct ContentView: View {
     // MARK: Render
@@ -31,13 +19,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Exercise(title: "Update View", content: UpdateViewExercise())
-                Exercise(title: "Environment", content: EnvironmentExercise())
-                Exercise(title: "Layout", content: LayoutExercise())
+                ExerciseLink(title: "Update View") { UpdateViewExercise()}
+                ExerciseLink(title: "Environment") { EnvironmentExercise()}
+                ExerciseLink(title: "Layout") { LayoutExercise()}
             }.navigationTitle("Exercises")
         }
     }
 }
+
+// MARK: - Preview
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
