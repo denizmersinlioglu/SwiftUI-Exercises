@@ -190,6 +190,9 @@
 		22A75C4526631E2300A51D4D /* ExerciseCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoreTests.swift; sourceTree = "<group>"; };
 		22A75C4726631E2300A51D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A75C5326631E3100A51D4D /* ExerciseLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLink.swift; sourceTree = "<group>"; };
+		22A75C63266320A400A51D4D /* swiftformat.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = swiftformat.dSYM; sourceTree = "<group>"; };
+		22A75C6E266320AE00A51D4D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		22A75C70266320C500A51D4D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,7 @@
 				22A75C3726631E2200A51D4D /* ExerciseCore */,
 				22A75C4426631E2300A51D4D /* ExerciseCoreTests */,
 				221DC1A02661AACB0050D2D1 /* Products */,
+				22A75C57266320A400A51D4D /* BuildTools */,
 			);
 			sourceTree = "<group>";
 		};
@@ -441,6 +445,184 @@
 				22A75C4726631E2300A51D4D /* Info.plist */,
 			);
 			path = ExerciseCoreTests;
+			sourceTree = "<group>";
+		};
+		22A75C57266320A400A51D4D /* BuildTools */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C58266320A400A51D4D /* .build */,
+				22A75C6E266320AE00A51D4D /* Empty.swift */,
+				22A75C70266320C500A51D4D /* Package.swift */,
+			);
+			path = BuildTools;
+			sourceTree = "<group>";
+		};
+		22A75C58266320A400A51D4D /* .build */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C59266320A400A51D4D /* artifacts */,
+				22A75C5A266320A400A51D4D /* checkouts */,
+				22A75C5B266320A400A51D4D /* x86_64-apple-macosx */,
+				22A75C64266320A400A51D4D /* repositories */,
+			);
+			path = .build;
+			sourceTree = "<group>";
+		};
+		22A75C59266320A400A51D4D /* artifacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = artifacts;
+			sourceTree = "<group>";
+		};
+		22A75C5A266320A400A51D4D /* checkouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = checkouts;
+			sourceTree = "<group>";
+		};
+		22A75C5B266320A400A51D4D /* x86_64-apple-macosx */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5C266320A400A51D4D /* release */,
+			);
+			path = "x86_64-apple-macosx";
+			sourceTree = "<group>";
+		};
+		22A75C5C266320A400A51D4D /* release */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5D266320A400A51D4D /* CommandLineTool.build */,
+				22A75C5E266320A400A51D4D /* ModuleCache */,
+				22A75C60266320A400A51D4D /* swiftformat.product */,
+				22A75C61266320A400A51D4D /* SwiftFormat.build */,
+				22A75C62266320A400A51D4D /* BuildTools.build */,
+				22A75C63266320A400A51D4D /* swiftformat.dSYM */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		22A75C5D266320A400A51D4D /* CommandLineTool.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommandLineTool.build;
+			sourceTree = "<group>";
+		};
+		22A75C5E266320A400A51D4D /* ModuleCache */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C5F266320A400A51D4D /* 3VOEGG73VEP3P */,
+			);
+			path = ModuleCache;
+			sourceTree = "<group>";
+		};
+		22A75C5F266320A400A51D4D /* 3VOEGG73VEP3P */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3VOEGG73VEP3P;
+			sourceTree = "<group>";
+		};
+		22A75C60266320A400A51D4D /* swiftformat.product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = swiftformat.product;
+			sourceTree = "<group>";
+		};
+		22A75C61266320A400A51D4D /* SwiftFormat.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftFormat.build;
+			sourceTree = "<group>";
+		};
+		22A75C62266320A400A51D4D /* BuildTools.build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuildTools.build;
+			sourceTree = "<group>";
+		};
+		22A75C64266320A400A51D4D /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C65266320A400A51D4D /* SwiftFormat-0610bb0d */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		22A75C65266320A400A51D4D /* SwiftFormat-0610bb0d */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C66266320A400A51D4D /* objects */,
+				22A75C69266320A400A51D4D /* info */,
+				22A75C6A266320A400A51D4D /* hooks */,
+				22A75C6B266320A400A51D4D /* refs */,
+			);
+			path = "SwiftFormat-0610bb0d";
+			sourceTree = "<group>";
+		};
+		22A75C66266320A400A51D4D /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C67266320A400A51D4D /* pack */,
+				22A75C68266320A400A51D4D /* info */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		22A75C67266320A400A51D4D /* pack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		22A75C68266320A400A51D4D /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		22A75C69266320A400A51D4D /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		22A75C6A266320A400A51D4D /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		22A75C6B266320A400A51D4D /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				22A75C6C266320A400A51D4D /* heads */,
+				22A75C6D266320A400A51D4D /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		22A75C6C266320A400A51D4D /* heads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		22A75C6D266320A400A51D4D /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
